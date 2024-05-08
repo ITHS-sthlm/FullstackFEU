@@ -4,14 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "build-frontend": "npm run --prefix ../frontend build && rm -Rf dist && mv ../frontend/dist .",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "build-frontend": "npm run --prefix ../frontend build && rm -Rf dist && mv ../frontend/dist .",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "express": "^4.19.2",
-      "sqlite3": "^5.1.7"
+        "express": "^4.19.2",
+        "sqlite": "^5.1.1",
+        "sqlite3": "^5.1.7"
     }
-  }
+}
