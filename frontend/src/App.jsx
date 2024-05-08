@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Hello from './components/Hello';
 
 function App() {
     const [cities, setCities] = useState([]);
@@ -20,6 +21,7 @@ function App() {
                     </li>
                 ))}
             </ul>
+            <Hello/>
         </div>
     );
 }
